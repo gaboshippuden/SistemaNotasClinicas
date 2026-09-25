@@ -1,0 +1,3 @@
+hacer la conexión a sql (conexión.cs)
+hacer otra clase en DATA que tenga el CRUD con SPs de las Notas Clinicas y un trigger (no se q era esto)
+modificar el Form1.cs para crear la parte visual (tablas, columnas, etc)
