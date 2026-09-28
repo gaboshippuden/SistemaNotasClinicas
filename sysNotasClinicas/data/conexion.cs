@@ -5,8 +5,8 @@ namespace   sysNotasClinicas.data
     public class Conexion
     {
         private string connectionString = 
-        "localhost\\SQLEXPRESS;" +
-        "Database=NotasClinicas;" +
+        "Server=Gabo-Laptop\\SQLEXPRESS;" +
+        "Database=NotasClinicasDB;" +
         "Trusted_Connection=True;" +
         "TrustServerCertificate=True;";
 
