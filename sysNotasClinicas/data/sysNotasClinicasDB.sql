@@ -37,4 +37,7 @@ GO
 INSERT INTO Paciente (Nombres, Apellidos, Telefono) VALUES ('Juan', 'Pérez', '+56911111111');
 INSERT INTO Medico (Nombres, Apellidos, Especialidad) VALUES ('Ana', 'Soto', 'Medicina General');
 INSERT INTO NotaClinica (PacienteId, MedicoId, FechaConsulta, Diagnostico, NotasPaciente)
-VALUES (1, 1, SYSDATETIME(), 'Resfrío común',
+VALUES (1, 1, SYSDATETIME(), 'Resfrío común','Paciente refiere dolor de garganta hace 2 días');
+GO
+
+SELECT * FROM NotaClinica;
